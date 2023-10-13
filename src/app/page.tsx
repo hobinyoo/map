@@ -1,9 +1,24 @@
 "use client";
 
+import Image from "next/image";
+// import { QRCodeCanvas } from "qrcode.react";
+
 export default function Home() {
   return (
-    <img
+    // <div className="relative w-fullbg-black z-50 h-auto text-white">
+    //   <Image
+    //     src={"/images/map.jpg"}
+    //     layout="fill"
+    //     style={{ objectFit: "contain", height: "100%" }}
+    //     alt=""
+    //   />
+    //   gd
+    // </div>
+    <Image
       src={"/images/map.jpg"}
+      width={0}
+      height={0}
+      sizes="100vw"
       className="w-full h-auto md:w-[70%] m-auto"
       alt=""
     />
