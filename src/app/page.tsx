@@ -6,7 +6,7 @@ import { QRCodeCanvas } from "qrcode.react";
 export default function Home() {
   return (
     <Image
-      src={"/images/map2.jpg"}
+      src={"/images/mapt3.jpg"}
       width={0}
       height={0}
       sizes="100vw"
