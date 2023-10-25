@@ -1,12 +1,11 @@
 "use client";
 
 import Image from "next/image";
-// import { QRCodeCanvas } from "qrcode.react";
 
 export default function Home() {
   return (
     <Image
-      src={"/images/sunnyhill.jpg"}
+      src={"/images/twin.jpg"}
       width={0}
       height={0}
       sizes="100vw"
