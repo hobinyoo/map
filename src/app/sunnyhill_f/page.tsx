@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <Image
-      src={"/images/twin_image.jpg"}
+      src={"/images/sunnyhiiF_image.jpg"}
       width={0}
       height={0}
       sizes="100vw"
